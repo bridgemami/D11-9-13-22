@@ -1,0 +1,22 @@
+{
+  "name": "d11-9-13-22",
+  "version": "1.0.0",
+  "description": "fun with Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bridgemami/D11-9-13-22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bridgemami/D11-9-13-22/issues"
+  },
+  "homepage": "https://github.com/bridgemami/D11-9-13-22#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}

@@ -1,3 +1,4 @@
+
 button {
     padding: 5px 10px;
     border-radius: 10px;
@@ -11,5 +12,10 @@ button {
     }
     .secondButton {
         font-family: serif;
+    }
+    .bs {
+        @extend .p-5;
+        @extend .bg-primary;
+        @extend .btn;
     }
 }
