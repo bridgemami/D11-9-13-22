@@ -1,0 +1,82 @@
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-color: crimson;
+  color: black;
+  margin-top: 10px;
+}
+button .firstButton {
+  font-family: monospace;
+}
+button .secondButton {
+  font-family: serif;
+}
+
+@media screen and (max-width: 768px) {
+  div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  div button {
+    padding: 3px 6px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: orange;
+    color: black;
+    margin-top: 5px;
+    height: 75px;
+    width: 75px;
+  }
+  div button .firstButton {
+    font-family: monospace;
+  }
+  div button .secondButton {
+    font-family: serif;
+  }
+  div :hover {
+    background-color: crimson;
+  }
+}
+h1 {
+  background-color: gold;
+  text-align: center;
+  color: green;
+}
+
+.second {
+  background-color: purple;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.first {
+  background-color: yellow;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  color: green;
+}
+.first li {
+  font-family: fantasy;
+}
+.first .about {
+  font-weight: bold;
+  font-size: larger;
+}
+
+ol {
+  list-style: upper-roman;
+  color: yellow;
+}
+ol .second {
+  background-color: purple;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+ol .second li {
+  font-family: serif;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
