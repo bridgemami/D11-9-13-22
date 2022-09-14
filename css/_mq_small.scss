@@ -11,15 +11,15 @@
         margin-top: 5px;
         height:75px;
         width: 75px;
+        &:hover {
+            background-color: crimson;
+        }
         .firstButton {
             font-family: monospace;
         }
         .secondButton {
             font-family: serif;
         }
-    }
-    :hover {
-        background-color: crimson;
     }
 }
 }

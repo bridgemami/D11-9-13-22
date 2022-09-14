@@ -28,16 +28,31 @@ button .secondButton {
     height: 75px;
     width: 75px;
   }
+  div button:hover {
+    background-color: crimson;
+  }
   div button .firstButton {
     font-family: monospace;
   }
   div button .secondButton {
     font-family: serif;
   }
-  div :hover {
-    background-color: crimson;
-  }
 }
+.list, .grocery-list {
+  list-style-type: disc;
+  margin: 0;
+}
+.list li, .grocery-list li {
+  background-color: firebrick;
+}
+
+.grocery-list li {
+  color: hotpink;
+}
+.grocery-list li:nth-child(3) {
+  color: greenyellow;
+}
+
 h1 {
   background-color: gold;
   text-align: center;

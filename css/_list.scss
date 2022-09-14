@@ -1,0 +1,17 @@
+.list {
+    list-style-type: disc;
+    margin: 0;
+    li{
+        background-color: firebrick;
+    }
+}
+
+.grocery-list{
+    @extend .list; 
+    li {
+        color: hotpink;
+        &:nth-child(3) {
+            color:greenyellow;
+        }
+    }
+}
